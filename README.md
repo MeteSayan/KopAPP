@@ -4,7 +4,7 @@ Köpek gezdirme ve bakım uygulaması
 
 ## Veritabanı Yapısı
 
-**Köpek Sahibi:  **
+**Köpek Sahibi**
 1. Id
 2. Email
 3. Şifre
