@@ -1,0 +1,6 @@
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server.dbaccess\bin\Debug\server.dbaccess.dll
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server.dbaccess\bin\Debug\server.dbaccess.pdb
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.csprojAssemblyReference.cache
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.csproj.CoreCompileInputs.cache
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.dll
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.pdb

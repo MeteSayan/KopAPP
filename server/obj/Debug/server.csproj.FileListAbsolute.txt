@@ -1,0 +1,6 @@
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server\bin\Debug\server.dll
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server\bin\Debug\server.pdb
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server\obj\Debug\server.csprojAssemblyReference.cache
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server\obj\Debug\server.csproj.CoreCompileInputs.cache
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server\obj\Debug\server.dll
+C:\Users\Mete\Desktop\KopAPP\KopAPP\server\obj\Debug\server.pdb

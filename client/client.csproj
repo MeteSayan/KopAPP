@@ -1,0 +1,369 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{001E0CBD-6836-4B15-97A3-079C6420EBD2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>client</RootNamespace>
+    <AssemblyName>client</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44360</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="ui\accordion.html" />
+    <Content Include="ui\assets\css\animate.css\css\animate.css" />
+    <Content Include="ui\assets\css\bootstrap\css\bootstrap.min.css" />
+    <Content Include="ui\assets\css\chartist\chartist.css" />
+    <Content Include="ui\assets\css\component.css" />
+    <Content Include="ui\assets\css\font-awesome-n.min.css" />
+    <Content Include="ui\assets\css\font-awesome.min.css" />
+    <Content Include="ui\assets\css\ionicons.css" />
+    <Content Include="ui\assets\css\jquery.mCustomScrollbar.css" />
+    <Content Include="ui\assets\css\linearicons.css" />
+    <Content Include="ui\assets\css\morris.js\css\morris.css" />
+    <Content Include="ui\assets\css\simple-line-icons.css" />
+    <Content Include="ui\assets\css\style.css" />
+    <Content Include="ui\assets\css\style.min.css" />
+    <Content Include="ui\assets\icon\fa-brands-400.svg" />
+    <Content Include="ui\assets\icon\fa-regular-400.svg" />
+    <Content Include="ui\assets\icon\fa-solid-900.svg" />
+    <Content Include="ui\assets\icon\feather\css\feather.css" />
+    <Content Include="ui\assets\icon\feather\fonts\feather.svg" />
+    <Content Include="ui\assets\icon\font-awesome\css\font-awesome.css" />
+    <Content Include="ui\assets\icon\font-awesome\css\font-awesome.min.css" />
+    <Content Include="ui\assets\icon\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="ui\assets\icon\fontawesome-webfont.svg" />
+    <Content Include="ui\assets\icon\icofont\css\icofont.css" />
+    <Content Include="ui\assets\icon\ionicons.svg" />
+    <Content Include="ui\assets\icon\Linearicons-Free.svg" />
+    <Content Include="ui\assets\icon\Simple-Line-Icons.svg" />
+    <Content Include="ui\assets\icon\themify-icons\fonts\themify.svg" />
+    <Content Include="ui\assets\icon\themify-icons\themify-icons.css" />
+    <Content Include="ui\assets\images\auth\logo-dark.png" />
+    <Content Include="ui\assets\images\auth\Logo-small-bottom.png" />
+    <Content Include="ui\assets\images\auth\logo.png" />
+    <Content Include="ui\assets\images\avatar-1.jpg" />
+    <Content Include="ui\assets\images\avatar-2.jpg" />
+    <Content Include="ui\assets\images\avatar-3.jpg" />
+    <Content Include="ui\assets\images\avatar-4.jpg" />
+    <Content Include="ui\assets\images\avatar-5.jpg" />
+    <Content Include="ui\assets\images\breadcrumb-bg.jpg" />
+    <Content Include="ui\assets\images\browser\chrome.png" />
+    <Content Include="ui\assets\images\browser\firefox.png" />
+    <Content Include="ui\assets\images\browser\ie.png" />
+    <Content Include="ui\assets\images\browser\opera.png" />
+    <Content Include="ui\assets\images\browser\safari.png" />
+    <Content Include="ui\assets\images\favicon.ico" />
+    <Content Include="ui\assets\images\logo-blue.png" />
+    <Content Include="ui\assets\images\logo.png" />
+    <Content Include="ui\assets\images\mega-menu\01.jpg" />
+    <Content Include="ui\assets\images\mega-menu\02.jpg" />
+    <Content Include="ui\assets\images\mega-menu\03.jpg" />
+    <Content Include="ui\assets\images\select-arrow.png" />
+    <Content Include="ui\assets\images\user-bg.jpg" />
+    <Content Include="ui\assets\images\widget\AUSTRALIA.jpg" />
+    <Content Include="ui\assets\images\widget\BRAZIL.jpg" />
+    <Content Include="ui\assets\images\widget\DIGITALPEN.jpg" />
+    <Content Include="ui\assets\images\widget\GERMANY.jpg" />
+    <Content Include="ui\assets\images\widget\IPAD.jpg" />
+    <Content Include="ui\assets\images\widget\PHONE1.jpg" />
+    <Content Include="ui\assets\images\widget\PHONE2.jpg" />
+    <Content Include="ui\assets\images\widget\PHONE3.jpg" />
+    <Content Include="ui\assets\images\widget\PHONE4.jpg" />
+    <Content Include="ui\assets\images\widget\prod1.jpg" />
+    <Content Include="ui\assets\images\widget\prod2.jpg" />
+    <Content Include="ui\assets\images\widget\prod3.jpg" />
+    <Content Include="ui\assets\images\widget\prod4.jpg" />
+    <Content Include="ui\assets\images\widget\TABLET.jpg" />
+    <Content Include="ui\assets\images\widget\UK.jpg" />
+    <Content Include="ui\assets\images\widget\USA.jpg" />
+    <Content Include="ui\assets\images\widget\wather2bottom.png" />
+    <Content Include="ui\assets\images\widget\wather2m.png" />
+    <Content Include="ui\assets\images\widget\wather2star1.png" />
+    <Content Include="ui\assets\images\widget\wather2star2.png" />
+    <Content Include="ui\assets\images\widget\watherbottom.png" />
+    <Content Include="ui\assets\images\widget\wathernature.png" />
+    <Content Include="ui\assets\images\widget\watherstar1.png" />
+    <Content Include="ui\assets\images\widget\watherstar2.png" />
+    <Content Include="ui\assets\images\widget\wsm-3-star-1.png" />
+    <Content Include="ui\assets\images\widget\wsm-3-star-2.png" />
+    <Content Include="ui\assets\js\animation.js" />
+    <Content Include="ui\assets\js\bootstrap-growl.min.js" />
+    <Content Include="ui\assets\js\bootstrap\js\bootstrap.min.js" />
+    <Content Include="ui\assets\js\classie.js" />
+    <Content Include="ui\assets\js\color-json-common-page.js" />
+    <Content Include="ui\assets\js\common-pages.js" />
+    <Content Include="ui\assets\js\common-pages.min.js" />
+    <Content Include="ui\assets\js\counter.js" />
+    <Content Include="ui\assets\js\float\curvedLines.js" />
+    <Content Include="ui\assets\js\float\jquery.flot.categories.js" />
+    <Content Include="ui\assets\js\float\jquery.flot.js" />
+    <Content Include="ui\assets\js\float\jquery.flot.pie.js" />
+    <Content Include="ui\assets\js\float\jquery.flot.tooltip.min.js" />
+    <Content Include="ui\assets\js\jquery-slimscroll\jquery.slimscroll.js" />
+    <Content Include="ui\assets\js\jquery-ui\jquery-ui.min.js" />
+    <Content Include="ui\assets\js\jquery.easypiechart.min.js" />
+    <Content Include="ui\assets\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="ui\assets\js\jquery.mousewheel.min.js" />
+    <Content Include="ui\assets\js\jquery.quicksearch.js" />
+    <Content Include="ui\assets\js\jquery\jquery.min.js" />
+    <Content Include="ui\assets\js\modal.js" />
+    <Content Include="ui\assets\js\modalEffects.js" />
+    <Content Include="ui\assets\js\modernizr\css-scrollbars.js" />
+    <Content Include="ui\assets\js\modernizr\modernizr.js" />
+    <Content Include="ui\assets\js\morris.js\morris.js" />
+    <Content Include="ui\assets\js\owl-custom.js" />
+    <Content Include="ui\assets\js\pcoded.min.js" />
+    <Content Include="ui\assets\js\popper.js\popper.min.js" />
+    <Content Include="ui\assets\js\raphael\raphael.min.js" />
+    <Content Include="ui\assets\js\rating.js" />
+    <Content Include="ui\assets\js\script.js" />
+    <Content Include="ui\assets\js\script.min.js" />
+    <Content Include="ui\assets\js\SmoothScroll.js" />
+    <Content Include="ui\assets\js\swiper-custom.js" />
+    <Content Include="ui\assets\js\vertical\horizontal-layout.min.js" />
+    <Content Include="ui\assets\js\vertical\menu\box-layout.js" />
+    <Content Include="ui\assets\js\vertical\menu\menu-compact.js" />
+    <Content Include="ui\assets\js\vertical\menu\menu-header-fixed.js" />
+    <Content Include="ui\assets\js\vertical\menu\menu-hori-fixed.js" />
+    <Content Include="ui\assets\js\vertical\menu\menu-rtl.js" />
+    <Content Include="ui\assets\js\vertical\menu\menu-sidebar-fixed.js" />
+    <Content Include="ui\assets\js\vertical\menu\menu-static.js" />
+    <Content Include="ui\assets\js\vertical\vertical-layout.js" />
+    <Content Include="ui\assets\js\vertical\vertical-layout.min.js" />
+    <Content Include="ui\assets\pages\accordion\accordion.js" />
+    <Content Include="ui\assets\pages\accordion\accordion.min.js" />
+    <Content Include="ui\assets\pages\chart\morris\morris-custom-chart.js" />
+    <Content Include="ui\assets\pages\dashboard\amchart\css\amchart.css" />
+    <Content Include="ui\assets\pages\dashboard\amchart\css\export.css" />
+    <Content Include="ui\assets\pages\dashboard\amchart\js\amcharts.js" />
+    <Content Include="ui\assets\pages\dashboard\amchart\js\custom-amchart.js" />
+    <Content Include="ui\assets\pages\dashboard\amchart\js\export.min.js" />
+    <Content Include="ui\assets\pages\dashboard\amchart\js\images\dragIconRoundBig.svg" />
+    <Content Include="ui\assets\pages\dashboard\amchart\js\images\dragIconRoundBigH.svg" />
+    <Content Include="ui\assets\pages\dashboard\amchart\js\light.js" />
+    <Content Include="ui\assets\pages\dashboard\amchart\js\serial.js" />
+    <Content Include="ui\assets\pages\dashboard\custom-dashboard.js" />
+    <Content Include="ui\assets\pages\dashboard\custom-dashboard.min.js" />
+    <Content Include="ui\assets\pages\google-maps\gmaps.js" />
+    <Content Include="ui\assets\pages\google-maps\google-maps.js" />
+    <Content Include="ui\assets\pages\icon-modal.js" />
+    <Content Include="ui\assets\pages\notification\notification.css" />
+    <Content Include="ui\assets\pages\notification\notification.js" />
+    <Content Include="ui\assets\pages\todo\todo.js" />
+    <Content Include="ui\assets\pages\waves\css\waves.min.css" />
+    <Content Include="ui\assets\pages\waves\js\waves.min.js" />
+    <Content Include="ui\assets\pages\widget\amchart\amcharts.js" />
+    <Content Include="ui\assets\pages\widget\amchart\amcharts.min.js" />
+    <Content Include="ui\assets\pages\widget\amchart\ammap.js" />
+    <Content Include="ui\assets\pages\widget\amchart\ammap.min.js" />
+    <Content Include="ui\assets\pages\widget\amchart\continentsLow.js" />
+    <Content Include="ui\assets\pages\widget\amchart\continentsLow.min.js" />
+    <Content Include="ui\assets\pages\widget\amchart\export.min.js" />
+    <Content Include="ui\assets\pages\widget\amchart\gauge.js" />
+    <Content Include="ui\assets\pages\widget\amchart\gauge.min.js" />
+    <Content Include="ui\assets\pages\widget\amchart\images\dragIconRoundBig.svg" />
+    <Content Include="ui\assets\pages\widget\amchart\images\lens.svg" />
+    <Content Include="ui\assets\pages\widget\amchart\light.js" />
+    <Content Include="ui\assets\pages\widget\amchart\light.min.js" />
+    <Content Include="ui\assets\pages\widget\amchart\pie.js" />
+    <Content Include="ui\assets\pages\widget\amchart\pie.min.js" />
+    <Content Include="ui\assets\pages\widget\amchart\serial.js" />
+    <Content Include="ui\assets\pages\widget\amchart\serial.min.js" />
+    <Content Include="ui\assets\pages\widget\amchart\usaLow.js" />
+    <Content Include="ui\assets\pages\widget\amchart\worldLow.js" />
+    <Content Include="ui\assets\pages\widget\amchart\worldLow.min.js" />
+    <Content Include="ui\assets\pages\widget\excanvas.js" />
+    <Content Include="ui\auth-normal-sign-in.html" />
+    <Content Include="ui\auth-sign-up.html" />
+    <Content Include="ui\breadcrumb.html" />
+    <Content Include="ui\bs-basic-table.html" />
+    <Content Include="ui\button.html" />
+    <Content Include="ui\chart-morris.html" />
+    <Content Include="ui\color.html" />
+    <Content Include="ui\form-elements-component.html" />
+    <Content Include="ui\index.html" />
+    <Content Include="ui\label-badge.html" />
+    <Content Include="ui\map-google.html" />
+    <Content Include="ui\notification.html" />
+    <Content Include="ui\sample-page.html" />
+    <Content Include="ui\tabs.html" />
+    <Content Include="ui\tooltip.html" />
+    <Content Include="ui\typography.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="ui\assets\icon\CAW.TTF" />
+    <Content Include="ui\assets\icon\fa-brands-400.eot" />
+    <Content Include="ui\assets\icon\fa-brands-400.ttf" />
+    <Content Include="ui\assets\icon\fa-brands-400.woff" />
+    <Content Include="ui\assets\icon\fa-brands-400.woff2" />
+    <Content Include="ui\assets\icon\fa-regular-400.eot" />
+    <Content Include="ui\assets\icon\fa-regular-400.ttf" />
+    <Content Include="ui\assets\icon\fa-regular-400.woff" />
+    <Content Include="ui\assets\icon\fa-regular-400.woff2" />
+    <Content Include="ui\assets\icon\fa-solid-900.eot" />
+    <Content Include="ui\assets\icon\fa-solid-900.ttf" />
+    <Content Include="ui\assets\icon\fa-solid-900.woff" />
+    <Content Include="ui\assets\icon\fa-solid-900.woff2" />
+    <Content Include="ui\assets\icon\feather\fonts\feather.eot" />
+    <Content Include="ui\assets\icon\feather\fonts\feather.ttf" />
+    <Content Include="ui\assets\icon\feather\fonts\feather.woff" />
+    <Content Include="ui\assets\icon\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="ui\assets\icon\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="ui\assets\icon\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="ui\assets\icon\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="ui\assets\icon\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="ui\assets\icon\fontawesome-webfont.eot" />
+    <Content Include="ui\assets\icon\fontawesome-webfont.ttf" />
+    <Content Include="ui\assets\icon\fontawesome-webfont.woff" />
+    <Content Include="ui\assets\icon\fontawesome-webfont.woff2" />
+    <Content Include="ui\assets\icon\FontAwesome.otf" />
+    <Content Include="ui\assets\icon\icofont\fonts\icofont.eot" />
+    <Content Include="ui\assets\icon\icofont\fonts\icofont.ttf" />
+    <Content Include="ui\assets\icon\icofont\fonts\icofont.woff" />
+    <Content Include="ui\assets\icon\ionicons.eot" />
+    <Content Include="ui\assets\icon\ionicons.ttf" />
+    <Content Include="ui\assets\icon\ionicons.woff" />
+    <Content Include="ui\assets\icon\Linearicons-Free.eot" />
+    <Content Include="ui\assets\icon\Linearicons-Free.ttf" />
+    <Content Include="ui\assets\icon\Linearicons-Free.woff" />
+    <Content Include="ui\assets\icon\Linearicons-Free.woff2" />
+    <Content Include="ui\assets\icon\SEGOEUI.ttf" />
+    <Content Include="ui\assets\icon\SEGOEUIB.TTF" />
+    <Content Include="ui\assets\icon\segoeuii.ttf" />
+    <Content Include="ui\assets\icon\SEGOEUIZ.TTF" />
+    <Content Include="ui\assets\icon\Simple-Line-Icons.eot" />
+    <Content Include="ui\assets\icon\Simple-Line-Icons.ttf" />
+    <Content Include="ui\assets\icon\Simple-Line-Icons.woff" />
+    <Content Include="ui\assets\icon\Simple-Line-Icons.woff2" />
+    <Content Include="ui\assets\icon\themify-icons\fonts\themify.eot" />
+    <Content Include="ui\assets\icon\themify-icons\fonts\themify.ttf" />
+    <Content Include="ui\assets\icon\themify-icons\fonts\themify.woff" />
+    <Content Include="ui\assets\images\auth\Thumbs.db" />
+    <Content Include="ui\assets\images\Thumbs.db" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\server.dbaccess\server.dbaccess.csproj">
+      <Project>{64ea7208-b16b-46ef-9b36-1b26a75260de}</Project>
+      <Name>server.dbaccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\server\server.csproj">
+      <Project>{661b1b0e-2ceb-415b-878d-ba1cda5436b5}</Project>
+      <Name>server</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51849</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44360/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

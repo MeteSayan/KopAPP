@@ -36,6 +36,7 @@ Köpek gezdirme ve bakım uygulaması
 **Randevuler**
 1. Id
 2. Tarih
+3. KöpekSahibiId
 
 **Fiyatlandırmalar**
 1. Id
