@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using MongoDB.Bson;
+using MongoDB.Driver;
 
 namespace client
 {
@@ -11,7 +13,8 @@ namespace client
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            var db = new server.dbaccess.Class1();
+      
         }
     }
 }

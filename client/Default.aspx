@@ -13,31 +13,31 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
     <!-- Meta -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <meta name="keywords" content="bootstrap, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive" />
     <meta name="author" content="Codedthemes" />
     <!-- Favicon icon -->
-    <link rel="icon" href="ui/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="ui/assets/images/favicon.ico" type="image/x-icon"/>
     <!-- Google font-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"/>
     <!-- waves.css -->
-    <link rel="stylesheet" href="ui/assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="ui/assets/pages/waves/css/waves.min.css" type="text/css" media="all"/>
     <!-- Required Fremwork -->
-    <link rel="stylesheet" type="text/css" href="ui/assets/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="ui/assets/css/bootstrap/css/bootstrap.min.css"/>
     <!-- waves.css -->
-    <link rel="stylesheet" href="ui/assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="ui/assets/pages/waves/css/waves.min.css" type="text/css" media="all"/>
     <!-- themify icon -->
-    <link rel="stylesheet" type="text/css" href="ui/assets/icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="ui/assets/icon/themify-icons/themify-icons.css"/>
     <!-- font-awesome-n -->
-    <link rel="stylesheet" type="text/css" href="ui/assets/css/font-awesome-n.min.css">
-    <link rel="stylesheet" type="text/css" href="ui/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="ui/assets/css/font-awesome-n.min.css"/>
+    <link rel="stylesheet" type="text/css" href="ui/assets/css/font-awesome.min.css"/>
     <!-- scrollbar.css -->
-    <link rel="stylesheet" type="text/css" href="ui/assets/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="ui/assets/css/jquery.mCustomScrollbar.css"/>
     <!-- Style.css -->
-    <link rel="stylesheet" type="text/css" href="ui/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="ui/assets/css/style.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -114,7 +114,7 @@
                                 <div class="main-search morphsearch-search">
                                     <div class="input-group">
                                         <span class="input-group-prepend search-close"><i class="ti-close input-group-text"></i></span>
-                                        <input type="text" class="form-control" placeholder="Enter Keyword">
+                                        <input type="text" class="form-control" placeholder="Enter Keyword"/>
                                         <span class="input-group-append search-btn"><i class="ti-search input-group-text"></i></span>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-2.jpg" alt="Generic placeholder image">
+                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-2.jpg" alt="Generic placeholder image"/>
                                             <div class="media-body">
                                                 <h5 class="notification-user">John Doe</h5>
                                                 <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -161,7 +161,7 @@
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-4.jpg" alt="Generic placeholder image">
+                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-4.jpg" alt="Generic placeholder image"/>
                                             <div class="media-body">
                                                 <h5 class="notification-user">Joseph William</h5>
                                                 <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -171,7 +171,7 @@
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-3.jpg" alt="Generic placeholder image">
+                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-3.jpg" alt="Generic placeholder image"/>
                                             <div class="media-body">
                                                 <h5 class="notification-user">Sara Soudein</h5>
                                                 <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -183,7 +183,7 @@
                             </li>
                             <li class="user-profile header-notification">
                                 <a href="#!" class="waves-effect waves-light">
-                                    <img src="ui/assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                                    <img src="ui/assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image"/>
                                     <span>John Doe</span>
                                     <i class="ti-angle-down"></i>
                                 </a>
@@ -227,7 +227,7 @@
                         <div class="pcoded-inner-navbar main-menu">
                             <div class="">
                                 <div class="main-menu-header">
-                                    <img class="img-80 img-radius" src="ui/assets/images/avatar-4.jpg" alt="User-Profile-Image">
+                                    <img class="img-80 img-radius" src="ui/assets/images/avatar-4.jpg" alt="User-Profile-Image"/>
                                     <div class="user-details">
                                         <span id="more-details">John Doe<i class="fa fa-caret-down"></i></span>
                                     </div>
@@ -245,7 +245,7 @@
                             <div class="p-15 p-b-0">
                                 <form class="form-material">
                                     <div class="form-group form-primary">
-                                        <input type="text" name="footer-email" class="form-control">
+                                        <input type="text" name="footer-email" class="form-control"/>
                                         <span class="form-bar"></span>
                                         <label class="float-label"><i class="fa fa-search m-r-10"></i>Search Friend</label>
                                     </div>
@@ -604,7 +604,7 @@
                                                                     <tr>
                                                                         <td>
                                                                             <div class="d-inline-block align-middle">
-                                                                                <img src="ui/assets/images/avatar-4.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                                <img src="ui/assets/images/avatar-4.jpg" alt="user image" class="img-radius img-40 align-top m-r-15"/>
                                                                                 <div class="d-inline-block">
                                                                                     <h6>Shirley Hoe</h6>
                                                                                     <p class="text-muted m-b-0">Sales executive , NY</p>
@@ -618,7 +618,7 @@
                                                                     <tr>
                                                                         <td>
                                                                             <div class="d-inline-block align-middle">
-                                                                                <img src="ui/assets/images/avatar-2.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                                <img src="ui/assets/images/avatar-2.jpg" alt="user image" class="img-radius img-40 align-top m-r-15"/>
                                                                                 <div class="d-inline-block">
                                                                                     <h6>James Alexander</h6>
                                                                                     <p class="text-muted m-b-0">Sales executive , EL</p>
@@ -632,7 +632,7 @@
                                                                     <tr>
                                                                         <td>
                                                                             <div class="d-inline-block align-middle">
-                                                                                <img src="ui/assets/images/avatar-4.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                                <img src="ui/assets/images/avatar-4.jpg" alt="user image" class="img-radius img-40 align-top m-r-15"/>
                                                                                 <div class="d-inline-block">
                                                                                     <h6>Shirley Hoe</h6>
                                                                                     <p class="text-muted m-b-0">Sales executive , NY</p>
@@ -646,7 +646,7 @@
                                                                     <tr>
                                                                         <td>
                                                                             <div class="d-inline-block align-middle">
-                                                                                <img src="ui/assets/images/avatar-2.jpg" alt="user image" class="img-radius img-40 align-top m-r-15">
+                                                                                <img src="ui/assets/images/avatar-2.jpg" alt="user image" class="img-radius img-40 align-top m-r-15"/>
                                                                                 <div class="d-inline-block">
                                                                                     <h6>Nick Xander</h6>
                                                                                     <p class="text-muted m-b-0">Sales executive , EL</p>
