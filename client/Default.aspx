@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>KopAPP</title>
     <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -13,31 +13,31 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
     <!-- Meta -->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <meta name="keywords" content="bootstrap, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive" />
     <meta name="author" content="Codedthemes" />
     <!-- Favicon icon -->
-    <link rel="icon" href="ui/assets/images/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="ui/assets/images/favicon.ico" type="image/x-icon" />
     <!-- Google font-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" />
     <!-- waves.css -->
-    <link rel="stylesheet" href="ui/assets/pages/waves/css/waves.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="ui/assets/pages/waves/css/waves.min.css" type="text/css" media="all" />
     <!-- Required Fremwork -->
-    <link rel="stylesheet" type="text/css" href="ui/assets/css/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="ui/assets/css/bootstrap/css/bootstrap.min.css" />
     <!-- waves.css -->
-    <link rel="stylesheet" href="ui/assets/pages/waves/css/waves.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="ui/assets/pages/waves/css/waves.min.css" type="text/css" media="all" />
     <!-- themify icon -->
-    <link rel="stylesheet" type="text/css" href="ui/assets/icon/themify-icons/themify-icons.css"/>
+    <link rel="stylesheet" type="text/css" href="ui/assets/icon/themify-icons/themify-icons.css" />
     <!-- font-awesome-n -->
-    <link rel="stylesheet" type="text/css" href="ui/assets/css/font-awesome-n.min.css"/>
-    <link rel="stylesheet" type="text/css" href="ui/assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="ui/assets/css/font-awesome-n.min.css" />
+    <link rel="stylesheet" type="text/css" href="ui/assets/css/font-awesome.min.css" />
     <!-- scrollbar.css -->
-    <link rel="stylesheet" type="text/css" href="ui/assets/css/jquery.mCustomScrollbar.css"/>
+    <link rel="stylesheet" type="text/css" href="ui/assets/css/jquery.mCustomScrollbar.css" />
     <!-- Style.css -->
-    <link rel="stylesheet" type="text/css" href="ui/assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="ui/assets/css/style.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -45,7 +45,7 @@
         </div>
     </form>
 
-    
+
     <!-- Pre-loader start -->
     <div class="theme-loader">
         <div class="loader-track">
@@ -114,7 +114,7 @@
                                 <div class="main-search morphsearch-search">
                                     <div class="input-group">
                                         <span class="input-group-prepend search-close"><i class="ti-close input-group-text"></i></span>
-                                        <input type="text" class="form-control" placeholder="Enter Keyword"/>
+                                        <input type="text" class="form-control" placeholder="Enter Keyword" />
                                         <span class="input-group-append search-btn"><i class="ti-search input-group-text"></i></span>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-2.jpg" alt="Generic placeholder image"/>
+                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-2.jpg" alt="Generic placeholder image" />
                                             <div class="media-body">
                                                 <h5 class="notification-user">John Doe</h5>
                                                 <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -161,7 +161,7 @@
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-4.jpg" alt="Generic placeholder image"/>
+                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-4.jpg" alt="Generic placeholder image" />
                                             <div class="media-body">
                                                 <h5 class="notification-user">Joseph William</h5>
                                                 <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -171,7 +171,7 @@
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-3.jpg" alt="Generic placeholder image"/>
+                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-3.jpg" alt="Generic placeholder image" />
                                             <div class="media-body">
                                                 <h5 class="notification-user">Sara Soudein</h5>
                                                 <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -183,29 +183,29 @@
                             </li>
                             <li class="user-profile header-notification">
                                 <a href="#!" class="waves-effect waves-light">
-                                    <img src="ui/assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image"/>
+                                    <img src="ui/assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image" />
                                     <span>John Doe</span>
                                     <i class="ti-angle-down"></i>
                                 </a>
                                 <ul class="show-notification profile-notification">
                                     <li class="waves-effect waves-light">
                                         <a href="#!">
-                                            <i class="ti-settings"></i> Profil Ayarları
+                                            <i class="ti-settings"></i>Profil Ayarları
                                         </a>
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <a href="user-profile.html">
-                                            <i class="ti-user"></i> Profili Görüntüle
+                                            <i class="ti-user"></i>Profili Görüntüle
                                         </a>
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <a href="email-inbox.html">
-                                            <i class="ti-email"></i> Mesajlarım
+                                            <i class="ti-email"></i>Mesajlarım
                                         </a>
                                     </li>
                                     <li class="waves-effect waves-light">
                                         <a href="Login.aspx">
-                                            <i class="ti-layout-sidebar-left"></i> Çıkış
+                                            <i class="ti-layout-sidebar-left"></i>Çıkış
                                         </a>
                                     </li>
                                 </ul>
@@ -222,7 +222,7 @@
                         <div class="pcoded-inner-navbar main-menu">
                             <div class="">
                                 <div class="main-menu-header">
-                                    <img class="img-80 img-radius" src="ui/assets/images/avatar-4.jpg" alt="User-Profile-Image"/>
+                                    <img class="img-80 img-radius" src="ui/assets/images/avatar-4.jpg" alt="User-Profile-Image" />
                                     <div class="user-details">
                                         <span id="more-details">John Doe<i class="fa fa-caret-down"></i></span>
                                     </div>
@@ -270,7 +270,7 @@
                                     <div class="col-md-4">
                                         <ul class="breadcrumb">
                                             <li class="breadcrumb-item">
-                                                <a href="index.html"> <i class="fa fa-home"></i> </a>
+                                                <a href="index.html"><i class="fa fa-home"></i></a>
                                             </li>
                                             <li class="breadcrumb-item"><a href="#!">Anasayfa</a>
                                             </li>
@@ -286,17 +286,88 @@
                                 <div class="page-wrapper">
                                     <!-- Page-body start -->
                                     <div class="page-body">
-                                        
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <div class="card bg-light shadow-sm">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <img width="100%" src="https://i.pinimg.com/originals/74/e6/e2/74e6e29ac126e70c22b846f105ba7be2.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-3">
+                                                            <div class="col-12">
+                                                                <button class="col-12 btn btn-success">Randevu al</button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="card bg-light shadow-sm">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <img width="100%" src="https://i.pinimg.com/236x/66/c7/16/66c71600ff4be427bbf090be5d69d0f0.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-3">
+                                                            <div class="col-12">
+                                                                <button class="col-12 btn btn-success">Randevu al</button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="card bg-light shadow-sm">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <img width="100%" src="https://lh3.googleusercontent.com/proxy/QS8IrSTugAG5LDCZNw7P29Z5nQ4Yx8tRdWA4wM2giIBqULi-Q1aRJEq7CeyH_aH-vPBLLT1CgCI4H60i1PicriZTrTf_5NhXoSvWVkS1oGap-YE4S93PnQgpGbv9Fv-lun0YIipmQdUapHxLCDbnpy-9iisa-QcSwoIzCTtZWH-6I9oFaioLv0tOL6w792KH9YUX7acQ36BW6FjPJ8ICBzezLl8eLK0bRYFVCiPtc-AGIEHX01HO1w49QUD_biIJZ7px4sCQoiBhXvhAJ3i8xMI1"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-3">
+                                                            <div class="col-12">
+                                                                <button class="col-12 btn btn-success">Randevu al</button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="card bg-light shadow-sm">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <img width="100%" src="https://i.pinimg.com/236x/04/95/59/0495590d33f009f26c02bcc69d882d15.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-3">
+                                                            <div class="col-12">
+                                                                <button class="col-12 btn btn-success">Randevu al</button>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!-- Page-body end -->
                                 </div>
-                                <div id="styleSelector"> </div>
+                                <!-- Page-body end -->
                             </div>
+                            <div id="styleSelector"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- Required Jquery -->
