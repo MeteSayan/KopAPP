@@ -13,7 +13,7 @@ namespace server.dbaccess
     {
         public void main(string[] args)
         {
-            MongoClient dbClient = new MongoClient("mongodb+srv://msayan:<passoword>@cluster0.fvz6r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+            MongoClient dbClient = new MongoClient("");
 
             var db = dbClient.GetDatabase("KopAPP");
             var collection = db.GetCollection<MongoExapmle>("Users");
