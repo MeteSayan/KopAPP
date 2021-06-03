@@ -298,6 +298,7 @@
                                                         <div class="row mt-3">
                                                             <div class="col-12">
                                                                 <button class="col-12 btn btn-success">Randevu al</button>
+                                                                <h2><asp:Label Text="" ID="AdSoyad" runat="server" /></h2>
                                                             </div>
                                                         </div>
 

@@ -14,7 +14,12 @@ namespace client
         protected void Page_Load(object sender, EventArgs e)
         {
             var db = new server.dbaccess.Class1();
-      
+            
+            
+            var test2 = db.BakiciListeleme();
+            
+            AdSoyad.Text = test2.ToJson();
+            System.Diagnostics.Debug.WriteLine(test2 + "           TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT");
         }
     }
 }

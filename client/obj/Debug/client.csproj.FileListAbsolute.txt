@@ -119,7 +119,6 @@ C:\Users\Mete\Documents\GitHub\KopAPP\client\bin\server.dll
 C:\Users\Mete\Documents\GitHub\KopAPP\client\bin\server.dbaccess.pdb
 C:\Users\Mete\Documents\GitHub\KopAPP\client\bin\server.pdb
 C:\Users\Mete\Documents\GitHub\KopAPP\client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Mete\Documents\GitHub\KopAPP\client\obj\Debug\client.csprojAssemblyReference.cache
 C:\Users\Mete\Documents\GitHub\KopAPP\client\obj\Debug\client.csproj.CoreCompileInputs.cache
 C:\Users\Mete\Documents\GitHub\KopAPP\client\obj\Debug\client.csproj.CopyComplete
 C:\Users\Mete\Documents\GitHub\KopAPP\client\obj\Debug\client.dll
@@ -142,3 +141,4 @@ C:\Users\Mete\Documents\GitHub\KopAPP\client\bin\MongoDB.Driver.xml
 C:\Users\Mete\Documents\GitHub\KopAPP\client\bin\MongoDB.Driver.Core.xml
 C:\Users\Mete\Documents\GitHub\KopAPP\client\bin\System.Buffers.xml
 C:\Users\Mete\Documents\GitHub\KopAPP\client\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Mete\Documents\GitHub\KopAPP\client\obj\Debug\client.csproj.AssemblyReference.cache

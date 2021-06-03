@@ -24,8 +24,8 @@ C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\MongoDB.Driver.x
 C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\MongoDB.Driver.Core.xml
 C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\System.Buffers.xml
 C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.csprojAssemblyReference.cache
 C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.csproj.CoreCompileInputs.cache
 C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.csproj.CopyComplete
 C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.dll
 C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.pdb
+C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.csproj.AssemblyReference.cache
