@@ -13,10 +13,10 @@ namespace server.dbaccess
     {
         static public bool Login(string email, string password)
         {
-            var dbClient = new MongoClient("mongodb+srv://msayan:<passoword>@cluster0.fvz6r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+            var dbClient = new MongoClient("mongodb+srv://msayan:<password>@cluster0.fvz6r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
             var db = dbClient.GetDatabase("KopAPP");
 
-            var user = db.GetCollection<Bakici>("Bakicilar").Find(b => b.email == email && b.password == password).FirstOrDefault();
+            var user = db.GetCollection<Kullanici>("Users").Find(b => b.email == email && b.password == password).FirstOrDefault();
 
             if (user != null)
             {

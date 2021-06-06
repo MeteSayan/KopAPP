@@ -23,9 +23,11 @@ namespace client
 
             var db = new server.dbaccess.Class1();
             bakicilar = db.BakiciListeleme();
-
-            uyeName = Request.Cookies.Get("name").Value;
-            uyePhoto = Request.Cookies.Get("photo").Value;
+            if(Request.Cookies.Get("name") != null && Request.Cookies.Get("photo") != null)
+            {
+                uyeName = Request.Cookies.Get("name").Value;
+                uyePhoto = Request.Cookies.Get("photo").Value;
+            }
 
 
         }

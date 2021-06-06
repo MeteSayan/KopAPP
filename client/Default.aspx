@@ -116,7 +116,7 @@
                             </div>
                         </div>
                         <a href="#">
-                            <img class="img-fluid" style="height:50px;width:150px;" src="ui/assets/images/KopAPP.jpg" alt="Theme-Logo"/>
+                            <img class="img-fluid" style="height: 50px; width: 150px;" src="ui/assets/images/KopAPP.jpg" alt="Theme-Logo" />
                         </a>
                         <a class="mobile-options waves-effect waves-light">
                             <i class="ti-more"></i>
@@ -157,7 +157,7 @@
                                         </a>
                                     </li>
                                     <li class="waves-effect waves-light">
-                                        <a href="Login.aspx">
+                                        <a href="Login.aspx" onclick="return Cikis();">
                                             <i class="ti-layout-sidebar-left"></i>Çıkış
                                         </a>
                                     </li>
@@ -185,7 +185,7 @@
                                         <li class="more-details">
                                             <a href="#"><i class="ti-user"></i>Profili Görüntüle</a>
                                             <a href="#!"><i class="ti-settings"></i>Profil Ayarları</a>
-                                            <a href="Login.aspx"><i class="ti-layout-sidebar-left"></i>Çıkış</a>
+                                            <a href="Login.aspx" onclick="return Cikis();"><i class="ti-layout-sidebar-left"></i>Çıkış</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -239,11 +239,11 @@
                                 <div class="page-wrapper">
                                     <!-- Page-body start -->
                                     <div class="page-body">
-                                        <div class="row">                       
+                                        <div class="row">
                                             <% foreach (var bakici in bakicilar)
-                                            { %>
+                                                { %>
                                             <!-- loop through the list -->
-                                             <div class="col-2">
+                                            <div class="col-2">
                                                 <div class="card bg-light shadow-sm">
                                                     <div class="card-body">
                                                         <div class="row">
@@ -255,7 +255,7 @@
                                                             <div class="col-12">
                                                                 <button class="col-12 btn btn-success">Randevu al</button>
                                                                 <hr />
-                                                                <h6 style="text-align:center"><%=bakici.name %></h6>
+                                                                <h6 style="text-align: center"><%=bakici.name %></h6>
                                                             </div>
                                                         </div>
 
@@ -277,7 +277,18 @@
         </div>
     </div>
     </div>
+    <script type="text/javascript">
+        function Cikis() {
+            var cookies = document.cookie.split(";");
 
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i];
+                var eqPos = cookie.indexOf("=");
+                var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+                document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+            }
+        }
+    </script>
     <!-- Required Jquery -->
     <script type="text/javascript" src="ui/assets/js/jquery/jquery.min.js "></script>
     <script type="text/javascript" src="ui/assets/js/jquery-ui/jquery-ui.min.js "></script>
