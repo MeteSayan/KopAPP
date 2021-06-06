@@ -11,7 +11,8 @@ Köpek gezdirme ve bakım uygulaması
 4. İsim
 5. Adres
 6. Telefon
-7. Köpek id
+7. img
+8. Köpek id
 
 **Köpek**
 1. Id
@@ -28,10 +29,9 @@ Köpek gezdirme ve bakım uygulaması
 4. İsim
 5. Telefon
 6. Adres
-7. Yorumlar ve Puanlama Id
+7. img
 8. Fiyatlandırma Id
 9. Randevu Id
-10. Verilen Hizmetler (true,false)
 
 **Randevuler**
 1. Id
@@ -42,7 +42,7 @@ Köpek gezdirme ve bakım uygulaması
 1. Id
 2. Hizmetleri fiyatları
 
-**Yorumlar ve Puanlama**
+**Yorumlar ve Puanlama (Sonradan eklenebilir)** 
 1. Id
 2. Yorumlar
 3. Puanlama
