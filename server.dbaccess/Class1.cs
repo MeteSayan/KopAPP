@@ -12,32 +12,30 @@ namespace server.dbaccess
 {
     public class Class1
     {
-        public String main()
+        public void main()
         {
-
-            var dbClient = new MongoClient("mongodb+srv://msayan:<password>@cluster0.fvz6r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
-           
-            var db = dbClient.GetDatabase("KopAPP");
-            var collection = db.GetCollection<Bakici>("Bakicilar");
-            var bakiciId = new ObjectId("608169b9b0c416a7f20f27eb");
-
-            var bakicilar = collection.Find(b => b.Id == bakiciId).FirstOrDefault();
-            var value = bakicilar.Id.ToString();
-            return value;
 
         }
 
-        public Object BakiciListeleme()
+        public List<Bakici> BakiciListeleme()
         {
 
-            var dbClient = new MongoClient("mongodb+srv://msayan:<password>@cluster0.fvz6r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+            var dbClient = new MongoClient("mongodb+srv://msayan:<passoword>@cluster0.fvz6r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
             var db = dbClient.GetDatabase("KopAPP");
-            var coll = db.GetCollection<Bakici>("Bakicilar").AsQueryable<Bakici>();
+            var collection = db.GetCollection<Bakici>("Bakicilar").AsQueryable<Bakici>();
 
-            var bakicilar = coll.Where(_ => true).Skip(0).Take(10).ToList();
-            var testc = bakicilar[0].email;
-            //var test = string.Join(", ", bakicilar);
-            return testc;
+            var bakicilar = collection.Where(_ => true).Take(12).ToList();
+            return bakicilar;
+        }
+
+        public static List<Bakici> UyeBilgisi(string email)
+        {
+
+            var dbClient = new MongoClient("mongodb+srv://msayan:<passoword>@cluster0.fvz6r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+            var db = dbClient.GetDatabase("KopAPP");
+
+            var bakicilar = db.GetCollection<Bakici>("Bakicilar").Find(b => b.email == email).ToList();
+            return bakicilar;
         }
     }
     public class Bakici
@@ -48,6 +46,7 @@ namespace server.dbaccess
         public String name { get; set; }
         public String phone { get; set; }
         public String adress { get; set; }
+        public String img { get; set; }
         public ObjectId fiyatlandirmaId { get; set; }
         public ObjectId randevuId { get; set; }
 

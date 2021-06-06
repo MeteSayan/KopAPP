@@ -29,3 +29,11 @@ C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.
 C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.dll
 C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.pdb
 C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\obj\Debug\server.dbaccess.csproj.AssemblyReference.cache
+C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Mete\Documents\GitHub\KopAPP\server.dbaccess\bin\Debug\System.IdentityModel.Tokens.Jwt.xml

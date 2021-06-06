@@ -40,11 +40,6 @@
     <link rel="stylesheet" type="text/css" href="ui/assets/css/style.css" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-
 
     <!-- Pre-loader start -->
     <div class="theme-loader">
@@ -120,8 +115,8 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="index.html">
-                            <img class="img-fluid" src="ui/assets/images/logo.png" alt="Theme-Logo" />
+                        <a href="#">
+                            <img class="img-fluid" style="height:50px;width:150px;" src="ui/assets/images/KopAPP.jpg" alt="Theme-Logo"/>
                         </a>
                         <a class="mobile-options waves-effect waves-light">
                             <i class="ti-more"></i>
@@ -139,52 +134,10 @@
                             </li>
                         </ul>
                         <ul class="nav-right">
-                            <li class="header-notification">
-                                <a href="#!" class="waves-effect waves-light">
-                                    <i class="ti-bell"></i>
-                                    <span class="badge bg-c-red"></span>
-                                </a>
-                                <ul class="show-notification">
-                                    <li>
-                                        <h6>Notifications</h6>
-                                        <label class="label label-danger">New</label>
-                                    </li>
-                                    <li class="waves-effect waves-light">
-                                        <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-2.jpg" alt="Generic placeholder image" />
-                                            <div class="media-body">
-                                                <h5 class="notification-user">John Doe</h5>
-                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
-                                                <span class="notification-time">30 minutes ago</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="waves-effect waves-light">
-                                        <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-4.jpg" alt="Generic placeholder image" />
-                                            <div class="media-body">
-                                                <h5 class="notification-user">Joseph William</h5>
-                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
-                                                <span class="notification-time">30 minutes ago</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="waves-effect waves-light">
-                                        <div class="media">
-                                            <img class="d-flex align-self-center img-radius" src="ui/assets/images/avatar-3.jpg" alt="Generic placeholder image" />
-                                            <div class="media-body">
-                                                <h5 class="notification-user">Sara Soudein</h5>
-                                                <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
-                                                <span class="notification-time">30 minutes ago</span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
                             <li class="user-profile header-notification">
                                 <a href="#!" class="waves-effect waves-light">
-                                    <img src="ui/assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image" />
-                                    <span>John Doe</span>
+                                    <img src="<%=uyePhoto %>" class="img-radius" alt="User-Profile-Image" />
+                                    <span><%=uyeName %></span>
                                     <i class="ti-angle-down"></i>
                                 </a>
                                 <ul class="show-notification profile-notification">
@@ -194,12 +147,12 @@
                                         </a>
                                     </li>
                                     <li class="waves-effect waves-light">
-                                        <a href="user-profile.html">
+                                        <a href="#">
                                             <i class="ti-user"></i>Profili Görüntüle
                                         </a>
                                     </li>
                                     <li class="waves-effect waves-light">
-                                        <a href="email-inbox.html">
+                                        <a href="#">
                                             <i class="ti-email"></i>Mesajlarım
                                         </a>
                                     </li>
@@ -222,15 +175,15 @@
                         <div class="pcoded-inner-navbar main-menu">
                             <div class="">
                                 <div class="main-menu-header">
-                                    <img class="img-80 img-radius" src="ui/assets/images/avatar-4.jpg" alt="User-Profile-Image" />
+                                    <img class="img-80 img-radius" src="<%=uyePhoto %>" alt="User-Profile-Image" />
                                     <div class="user-details">
-                                        <span id="more-details">John Doe<i class="fa fa-caret-down"></i></span>
+                                        <span id="more-details"><%=uyeName %><i class="fa fa-caret-down"></i></span>
                                     </div>
                                 </div>
                                 <div class="main-menu-content">
                                     <ul>
                                         <li class="more-details">
-                                            <a href="user-profile.html"><i class="ti-user"></i>Profili Görüntüle</a>
+                                            <a href="#"><i class="ti-user"></i>Profili Görüntüle</a>
                                             <a href="#!"><i class="ti-settings"></i>Profil Ayarları</a>
                                             <a href="Login.aspx"><i class="ti-layout-sidebar-left"></i>Çıkış</a>
                                         </li>
@@ -240,14 +193,14 @@
                             <div class="pcoded-navigation-label">Genel</div>
                             <ul class="pcoded-item pcoded-left-item">
                                 <li class="">
-                                    <a href="form-elements-component.html" class="waves-effect waves-dark">
+                                    <a href="#" class="waves-effect waves-dark">
                                         <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
                                         <span class="pcoded-mtext">Ana Sayfa</span>
                                         <span class="pcoded-mcaret"></span>
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="form-elements-componentb.html" class="waves-effect waves-dark">
+                                    <a href="#" class="waves-effect waves-dark">
                                         <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
                                         <span class="pcoded-mtext">Randevular</span>
                                         <span class="pcoded-mcaret"></span>
@@ -270,7 +223,7 @@
                                     <div class="col-md-4">
                                         <ul class="breadcrumb">
                                             <li class="breadcrumb-item">
-                                                <a href="index.html"><i class="fa fa-home"></i></a>
+                                                <a href="#"><i class="fa fa-home"></i></a>
                                             </li>
                                             <li class="breadcrumb-item"><a href="#!">Anasayfa</a>
                                             </li>
@@ -286,77 +239,31 @@
                                 <div class="page-wrapper">
                                     <!-- Page-body start -->
                                     <div class="page-body">
-                                        <div class="row">
-                                            <div class="col-2">
+                                        <div class="row">                       
+                                            <% foreach (var bakici in bakicilar)
+                                            { %>
+                                            <!-- loop through the list -->
+                                             <div class="col-2">
                                                 <div class="card bg-light shadow-sm">
                                                     <div class="card-body">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <img width="100%" src="https://i.pinimg.com/originals/74/e6/e2/74e6e29ac126e70c22b846f105ba7be2.jpg" alt="">
+                                                                <img width="100%" src="<%=bakici.img %>" alt="">
                                                             </div>
                                                         </div>
                                                         <div class="row mt-3">
                                                             <div class="col-12">
                                                                 <button class="col-12 btn btn-success">Randevu al</button>
-                                                                <h2><asp:Label Text="" ID="AdSoyad" runat="server" /></h2>
+                                                                <hr />
+                                                                <h6 style="text-align:center"><%=bakici.name %></h6>
                                                             </div>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-2">
-                                                <div class="card bg-light shadow-sm">
-                                                    <div class="card-body">
-                                                        <div class="row">
-                                                            <div class="col-12">
-                                                                <img width="100%" src="https://i.pinimg.com/236x/66/c7/16/66c71600ff4be427bbf090be5d69d0f0.jpg" alt="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mt-3">
-                                                            <div class="col-12">
-                                                                <button class="col-12 btn btn-success">Randevu al</button>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-2">
-                                                <div class="card bg-light shadow-sm">
-                                                    <div class="card-body">
-                                                        <div class="row">
-                                                            <div class="col-12">
-                                                                <img width="100%" src="https://lh3.googleusercontent.com/proxy/QS8IrSTugAG5LDCZNw7P29Z5nQ4Yx8tRdWA4wM2giIBqULi-Q1aRJEq7CeyH_aH-vPBLLT1CgCI4H60i1PicriZTrTf_5NhXoSvWVkS1oGap-YE4S93PnQgpGbv9Fv-lun0YIipmQdUapHxLCDbnpy-9iisa-QcSwoIzCTtZWH-6I9oFaioLv0tOL6w792KH9YUX7acQ36BW6FjPJ8ICBzezLl8eLK0bRYFVCiPtc-AGIEHX01HO1w49QUD_biIJZ7px4sCQoiBhXvhAJ3i8xMI1"
-                                                                    alt="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mt-3">
-                                                            <div class="col-12">
-                                                                <button class="col-12 btn btn-success">Randevu al</button>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-2">
-                                                <div class="card bg-light shadow-sm">
-                                                    <div class="card-body">
-                                                        <div class="row">
-                                                            <div class="col-12">
-                                                                <img width="100%" src="https://i.pinimg.com/236x/04/95/59/0495590d33f009f26c02bcc69d882d15.jpg" alt="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mt-3">
-                                                            <div class="col-12">
-                                                                <button class="col-12 btn btn-success">Randevu al</button>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <% } %>
+                                            <!--End the for loop -->
                                         </div>
                                     </div>
                                 </div>

@@ -100,7 +100,7 @@
                 <div class="col-sm-12">
                     <!-- Authentication card start -->
 
-                        <form class="md-float-material form-material">
+                        <form class="md-float-material form-material" runat="server">
                             <div class="auth-box card">
                                 <div class="card-block">
                                     <div class="row m-b-20">
@@ -109,12 +109,12 @@
                                         </div>
                                     </div>
                                     <div class="form-group form-primary">
-                                        <input type="text" name="email" class="form-control">
+                                        <asp:TextBox ID="email" runat="server" type="text" name="email" class="form-control" />
                                         <span class="form-bar"></span>
                                         <label class="float-label">Email</label>
                                     </div>
                                     <div class="form-group form-primary">
-                                        <input type="password" name="password" class="form-control">
+                                        <asp:TextBox ID="password" runat="server" type="password" name="password" class="form-control"/>
                                         <span class="form-bar"></span>
                                         <label class="float-label">Şifre</label>
                                     </div>
@@ -128,20 +128,21 @@
                                                 </label>
                                             </div>
                                             <div class="forgot-phone text-right f-right">
-                                                <a href="auth-reset-password.html" class="text-right f-w-600"> Şifrenizi mi unuttunuz?</a>
+                                                <a href="#" class="text-right f-w-600"> Şifrenizi mi unuttunuz?</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row m-t-30">
                                         <div class="col-md-12">
-                                            <button type="button" class="btn btn-primary btn-md btn-block waves-effect waves-light text-center m-b-20">Giriş Yap</button>
+                                            <asp:Label ID="Error" runat="server" Text=""></asp:Label>
+                                            <asp:Button ID="Giris" runat="server" Text="Giriş Yap"  class="btn btn-benimki btn-md btn-block waves-effect waves-light text-center m-b-20" OnClick="Giris_Click" />
                                         </div>
+                       
                                     </div>
                                     <hr/>
                                     <div class="row">
                                         <div class="col-md-10">
-                                            <p class="text-inverse text-left m-b-0">Teşekkürler.</p>
-                                            <p class="text-inverse text-left"><a href="index.html"><b>Anasayfaya geri dön</b></a></p>
+                                            <p class="text-inverse text-left m-b-0">Copyright by Mete Sayan</p>
                                         </div>
                                     </div>
                                 </div>
@@ -156,50 +157,6 @@
         <!-- end of container-fluid -->
     </section>
     <!-- Warning Section Starts -->
-    <!-- Older IE warning message -->
-    <!--[if lt IE 10]>
-<div class="ie-warning">
-    <h1>Warning!!</h1>
-    <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
-    <div class="iew-container">
-        <ul class="iew-download">
-            <li>
-                <a href="http://www.google.com/chrome/">
-                    <img src="ui/assets/images/browser/chrome.png" alt="Chrome">
-                    <div>Chrome</div>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.mozilla.org/en-US/firefox/new/">
-                    <img src="ui/assets/images/browser/firefox.png" alt="Firefox">
-                    <div>Firefox</div>
-                </a>
-            </li>
-            <li>
-                <a href="http://www.opera.com">
-                    <img src="ui/assets/images/browser/opera.png" alt="Opera">
-                    <div>Opera</div>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.apple.com/safari/">
-                    <img src="ui/assets/images/browser/safari.png" alt="Safari">
-                    <div>Safari</div>
-                </a>
-            </li>
-            <li>
-                <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
-                    <img src="ui/assets/images/browser/ie.png" alt="">
-                    <div>IE (9 & above)</div>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <p>Sorry for the inconvenience!</p>
-</div>
-<![endif]-->
-<!-- Warning Section Ends -->
-<!-- Required Jquery -->
 <script type="text/javascript" src="ui/assets/js/jquery/jquery.min.js "></script>
 <script type="text/javascript" src="ui/assets/js/jquery-ui/jquery-ui.min.js "></script>
 <script type="text/javascript" src="ui/assets/js/popper.js/popper.min.js"></script>
