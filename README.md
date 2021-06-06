@@ -30,8 +30,9 @@ Köpek gezdirme ve bakım uygulaması
 5. Telefon
 6. Adres
 7. img
-8. Fiyatlandırma Id
-9. Randevu Id
+8. YorumlarvePuanlama (Sonradan eklenebilir)
+9. Fiyatlandırma Id
+10. Randevu Id
 
 **Randevuler**
 1. Id
